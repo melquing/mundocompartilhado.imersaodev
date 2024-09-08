@@ -33,3 +33,5 @@ Este é um projeto em desenvolvimento, então pode ter alguns bugs ou funcionali
 Agradecemos a todos que contribuíram para este projeto! Sem vocês, nada disso seria possível.
 
 **Vamos juntos explorar o mundo!** 
+
+https://mundocompartilhado-imersaodev-tx1a.vercel.app/
