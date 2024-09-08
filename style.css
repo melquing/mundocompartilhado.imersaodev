@@ -1,0 +1,391 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Baskervville SC", sans-serif; /* Define a fonte padrão */
+    background-image: url(img.oldpaper.jpg); /* Imagem de fundo da página */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+
+
+header {
+    background-color: #00000036;
+    padding: 1rem;
+    font-size: 2.5;
+    color: black;
+    letter-spacing: 0.4rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+
+.campodebusca {
+    position: fixed;
+    right: 80px;
+    top: 40px;
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    background-color: #fcd3afa7;
+    width: 15rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 0.4rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #000000; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.decoration {
+    position: relative;
+}
+
+.europa {
+    position: fixed;
+    right: 15rem;
+    top: 7.4rem;
+    
+}
+
+.africa {
+    position: fixed;
+    right: 19.5rem;
+    top: 19rem; 
+   
+    
+}
+
+.america {
+    position: fixed;
+    left: 30rem;
+    top: 20rem;
+   
+}
+
+.bulsula {
+    position: fixed;
+    left: 8rem;
+    top: 8rem;
+}
+
+.navio{
+    position: fixed;
+    top: 29rem;
+    left: 44.5rem;
+}
+
+.tentacolo {
+    position: fixed;
+    top: 13.5rem;
+    left: 36rem;
+    
+}
+
+.ancora {
+    position: fixed;
+    top: 24rem;
+    right: 4rem;
+    z-index: 1;
+    
+}
+
+div button {
+    padding: none;
+    cursor: pointer;
+    border-radius: none;
+    color: none;
+    border: none;
+    background-color: #56190a00;
+    align-items: center;
+    position: fixed;
+    top: 8rem;
+    z-index: 3;
+   
+}
+
+
+.continentes {
+    position: relative;
+}
+
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.5rem 0.8rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #744628; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: #6d3e1f; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+a {
+      text-decoration: none;
+      color: #45474B;
+    }
+
+/* Estiliza a caixa de resultados da pesquisa */
+
+    .apresentacao {
+    display: none;
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    right: 20rem;
+    top: 16.5rem;
+    z-index: 2;
+    width: 30rem; /* Largura máxima da caixa de resultados */
+    height: 23rem; /* Altura máxima da caixa de resultados */
+    position: relative;
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+    
+    
+.resultado-apresentacao h2 {    
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+.sidebar {
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 0.6rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    right: 65rem;
+    top: 6.7rem;
+    width: 10rem; /* Largura máxima da caixa de resultados */
+    height: 65vh; /* Altura máxima da caixa de resultados */
+    position: fixed;
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+.resultados-pesquisaafrica {
+    position: relative;
+    width: 42rem; /* Largura máxima da caixa de resultados */
+    height: 70vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 4rem; /* Espaçamento acima da caixa de resultados */
+    padding: 0rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+     
+   }
+
+/* Estiliza cada item de resultado */
+.item-resultadoafrica {
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); 
+    padding: 1rem;
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultadoafrica h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultadoafrica a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultadoafrica a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+.resultados-pesquisa {
+    position: relative;
+    width: 42rem; /* Largura máxima da caixa de resultados */
+    height: 70vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 4rem; /* Espaçamento acima da caixa de resultados */
+    padding: 0rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    right: 60rem; 
+  }
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); 
+    padding: 1rem;
+    position: relative;
+    right: 60rem;
+    
+}
+
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+   color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+} 
+
+
+.resultados-busca {
+    position: relative;
+    width: 28.4rem; /* Largura máxima da caixa de resultados */
+    height: 70vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 4rem; /* Espaçamento acima da caixa de resultados */
+    padding: 0rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    right: 24.8rem;
+   
+}
+
+   .item-buscado {
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); 
+    padding: 1rem;
+}
+
+
+.item-buscado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-buscado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-buscado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+.resultados-pesquisabrasa {
+    position: relative;
+    width: 42rem; /* Largura máxima da caixa de resultados */
+    height: 70vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 4rem; /* Espaçamento acima da caixa de resultados */
+    padding: 0rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+     
+   }
+
+/* Estiliza cada item de resultado */
+.item-resultadobrasa {
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); 
+    padding: 1rem;
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultadobrasa h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultadobrasa a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultadobrasa a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.resultados-pesquisaeuro {
+    position: relative;
+    width: 42rem; /* Largura máxima da caixa de resultados */
+    height: 70vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 4rem; /* Espaçamento acima da caixa de resultados */
+    padding: 0rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+     
+   }
+
+/* Estiliza cada item de resultado */
+.item-resultadoeuro {
+    color: #000000;
+    background: rgba(126, 102, 41, 0.947); 
+    padding: 1rem;
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultadoeuro h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultadoeuro a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultadoeuro a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #00000036; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: fixed; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 0.6rem; /* Tamanho da fonte */
+}
+
+
